@@ -1,0 +1,1 @@
+bonjour et bienvenue à cette session de formation sur PHP
