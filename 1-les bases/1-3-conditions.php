@@ -2,7 +2,8 @@
 // le if clause
 
 
-/*Syntaxe: la condition est une variable booléenne
+/*Syntaxe: la condition est une variable 
+booléenne
 if(conditi){
   action  
 }
@@ -17,17 +18,28 @@ else{
 
 /*
 les opérateurs de comparaison
->
-<
-<=
->=
-==
-!=
+> Supérieur
+< Inférieur
+<= Inférieur ou égal
+>= Supérieur ou égal
+== égale
+=== égal et de meme type
+!= different
 === est un == qui en plus de la comparaison des valeurs, compare aussi les types
 
 Exercie: 
 1- Ecrire une boucle if else pour dire si selon l'age on est adulte ou mineur
 2- Ajouter une sous condition pour tester si un mineur est ado 
+3- Créer un tableau salutation avec les 
+données suivantes:
+-bonjour
+-bon appres midi
+-bonsoir
+-bonne nuit.
+créer une variable heure et donnez lui l'heure 
+que vous voulez.
+ecrire la clause if else pour afficher un message 
+par rapport à la variable heure
 
 */
 $age = readline("Entrez votre age: ");
@@ -41,19 +53,18 @@ else{
 
 /*
 Les opérateurs ET et OU
-&&: ET 
-||: OU
+&& ET 
+|| OU
 
-vrai et faux = faux
-faux et vrai = faux
-vrai et vrai = vrai
-faux et faux = faux
+(vrai) et (faux) = faux
+(faux) et (vrai) = faux
+(vrai) et (vrai) = vrai
+(faux) et (faux) = faux
 
-
-vrai ou faux = vrai
-faux ou vrai = vrai
-vrai ou vrai = vrai
-faux ou faux = faux
+(vrai) ou (faux) = vrai
+(faux) ou (vrai) = vrai
+(vrai) ou (vrai) = vrai
+(faux) ou (faux) = faux
 
 Exercice: Ecrire une boucle if else pour vérifier si une entrée entiere est une heure d'ouveture ou une heure de ferméture. les heures d'ouverture sont 08h-12h et 15h-17h
 
