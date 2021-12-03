@@ -63,7 +63,7 @@ if (isset($_POST['email']) && trim($_POST['email']) != "" &&  isset($_POST['pass
         <div class="row align-items-center" style="height:100vh">
         <form method="post" action="" class="card p-5 col-md-6 offset-md-3">
             <h3 align="center">Inscription</h3>
-        <div class="mb-3">
+            <div class="mb-3">
                 <label for="name" class="form-label">Nom </label>
                 <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">Dans l'ordre de votre pièce d'identité</div>

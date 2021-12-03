@@ -42,6 +42,26 @@ ecrire la clause if else pour afficher un message
 par rapport à la variable heure
 
 */
+
+$heure =10;
+$salutations=["bonjour", "Bonsoir", "Bon aores midi", 'Bonne nuit'];
+if($heure >= 0 && $heure <12){
+    //Bonjour
+    echo $salutations[0];
+}
+elseif($heure  >= 12  && $heure<15 ){
+    //Bon apres midi
+    echo $salutations[1];
+}
+elseif($heure >= 15 && $heure <20){
+    //Bonsoir
+    echo $salutations[2];
+}
+else{
+    //Bonne nuit
+    echo $salutations[3];
+}
+
 $age = readline("Entrez votre age: ");
 if($age > 17){
     echo "vous êtes un adulte";

@@ -13,9 +13,21 @@ function disbonjour($nom)
 }
 
 ///Appel de la finction
-disbonjour('Kader');
+//disbonjour('Kader \n');
 
 ///On fait recours aux fonction pour éviter à réecrire le mem code de traitement plusieurs fois
 
+function calculerage($annee_naissanec){
+    $age = 2021 -$annee_naissanec;
+    echo $age;
+}
+
+//Ali né en 1990
+//Baké né en 1980
+//Fati né en 2000
+$age_ali = 2021 -1990;
+echo $age_ali;
+
+calculerage(1980);
 
 ?>

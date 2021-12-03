@@ -6,6 +6,7 @@
  */
 
 
+
 ?>
 
 
@@ -23,6 +24,49 @@
   </head>
   <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href=""><img src="logo.png" width="50" height="50" class="d-inline-block align-text-top" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Apropos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Formation</a></li>
+            <li><a class="dropdown-item" href="#">Service 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Service 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recrutement</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Annonces</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admincandidats.php">Administration</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Recherche</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
     <div class="container">
       <div class="row">
       <h1>Remplissez le formulaire ci-dessous pour postuler au poste d'expert IT</h1>
@@ -32,7 +76,7 @@
 
 <div class="container">
   <div class="row">
-    <form method="post" action="postformfile.php" class="p-5" enctype="multipart/form-data">
+    <form method="post" enctype="multipart/form-data" action="postformfile.php">
   <div class="form-group mb-3">
     <label for="nom">Nom</label>
     <input type="nom" class="form-control" name="nom" id="nom" placeholder="Votre nom" required="required">

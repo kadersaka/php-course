@@ -2,7 +2,10 @@
 <?php
 
 /**
- * PDO est une extension PHP qui permet de se connecter à MySQL. avant de l'utiliser rassurez-vous qu'il est activé dans vos configurations 
+ * PDO est une extension PHP qui permet de se
+ *  connecter à MySQL. avant de l'utiliser
+ *  rassurez-vous qu'il est activé dans vos 
+ * configurations 
  * 
  * 
  * 

@@ -1,0 +1,5 @@
+<?php 
+echo $_GET["nom"]. "\n";
+echo $_GET["prenom"]. "\n";
+
+?> 

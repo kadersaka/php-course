@@ -7,7 +7,9 @@ while(condition){
     action
 }
 
-on peut ajoute run "break" après action pour quitter la boucle meme si la condition nes pas respecté
+on peut ajoute run "break" après action pour 
+quitter la boucle meme si la condition nes pas
+ respecté
 
 Exercice: random_int(int $min, int $max) permet de générer  un nombre entier donné entre min et max. Générer un nombre et inviter l'utilisateur à le déviner en saisissant un entier. si l'entier saisi
 par l'utilisateur est plus petit ou plus grand que l'entier que vous avez généré avec random_int, vous lui direz. l'objectif sera que l'utilisateur dévine le nombre généré en faisant le moins d'éssais.
@@ -27,8 +29,12 @@ while($saisie != $nombre){
 echo "Félicitation, vous avez gagné";
 
 */
-
-
+$parts = ["ezedz", "vdvbdf", "dfuhids"];
+$t = 0;
+while($t < 3){
+    echo $parts[$t]."\n";
+    $t++;
+}
 
 /*
 La boucle For: 
@@ -41,9 +47,13 @@ Exercice: $presidents = ["Kerekou", "Soglo", "Kerekou", "Yayi", "Talon"];. affic
 
 
 */
-
+$participants = ["Franck", "Jean", "paul"];
 for($i = 1; $i <= 10; $i++){
     echo "$i - Bonjour \n";
+}
+
+for($i = 0; $i <= 2; $i++){
+    echo "$i - ".$participants[$i]." \n";
 }
 
 $presidents = ["Kerekou", "Soglo", "Kerekou", "Yayi", "Talon"];
@@ -51,9 +61,13 @@ for($i = 0; $i < count($presidents); $i++){
     echo "$i - $presidents[$i] \n";
 }
 
+$i = 1;
 
 foreach($presidents as $president){
-    echo "$president \n";
+   // echo "$president \n";
+    echo "$i"."$president \n";
+    $i++;
+
 }
 
 ///alerid

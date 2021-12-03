@@ -5,6 +5,16 @@
  *  Attribut "name"
  */
 
+ /**
+  * 1- intégrer boostrap
+  * 2- Créer un formulaire: nom, prenom, 
+  * addrsse, telephone, 
+  * email, lettre de motivation(saisir), cv, 
+  * diplome
+  * Boutton: Postuler (de couleur bleu)
+  * recupere les données et les afficher 
+  * à lutilisateur
+  */
 
 ?>
 
